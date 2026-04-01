@@ -19,7 +19,7 @@ func TestHelloHandler(t *testing.T) {
 	}
 
 	body := w.Body.String()
-	if !strings.Contains(body, "Hello, World!") {
-		t.Errorf("expected body to contain 'Hello, World!', got %q", body)
+	if !strings.Contains(body, "Hello, Foobar!") {
+		t.Errorf("expected body to contain 'Hello, Foobar!', got %q", body)
 	}
 }
