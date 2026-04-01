@@ -1,10 +1,10 @@
 # Python Hello World
 
-A simple Python program that prints "Hello, World!" with unit tests.
+A simple Python program that prints "Hello, Foobar!" with unit tests.
 
 ## Files
 
-- `hello.py` — Prints "Hello, World!"
+- `hello.py` — Prints "Hello, Foobar!"
 - `test_hello.py` — Tests `hello()` function and script output
 
 ## Usage
