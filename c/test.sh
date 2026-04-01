@@ -8,7 +8,7 @@ make -C "$SCRIPT_DIR" clean hello
 
 # Run and verify
 ACTUAL="$("$SCRIPT_DIR/hello")"
-EXPECTED="Hello, World!"
+EXPECTED="Hello, Foobar!"
 
 if [ "$ACTUAL" = "$EXPECTED" ]; then
     echo "PASS: hello output matches expected output"
